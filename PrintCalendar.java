@@ -1,5 +1,5 @@
 /*
-*
+*Author: Taylor Rollins
 *
 */
 
@@ -135,7 +135,7 @@ public class PrintCalendar {
       while(true){
           try{
               readInp = new Scanner(System.in);
-              System.out.print("Enter the month you would like to view: ");
+              System.out.print("Enter the year you would like to view: ");
               userYear = readInp.nextInt();
               return userYear;
           }
@@ -154,7 +154,7 @@ public class PrintCalendar {
       while(true){
           try{
               readInp = new Scanner(System.in);
-              System.out.print("Enter the year you would like to view: ");
+              System.out.print("Enter the month you would like to view: ");
               userMonth = readInp.nextInt();
               return userMonth;
           }
